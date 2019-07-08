@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Water
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 53b6ddada468b7e479a526c3703f1052, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -31,7 +31,15 @@ Material:
         m_Texture: {fileID: 2800000, guid: 52f1f8864cedc914081ef1744347e4c8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Bump:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: -0.09, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 52f1f8864cedc914081ef1744347e4c8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -51,12 +59,28 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _MainTex:
+    - _Foam:
+        m_Texture: {fileID: 2800000, guid: 8d3caf48cb4f407478809d447adab9a6, type: 3}
+        m_Scale: {x: 0.0001, y: 0.001}
+        m_Offset: {x: 0, y: 0}
+    - _FoamBump:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FoamGradient:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 52f1f8864cedc914081ef1744347e4c8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MicroBumpMap:
+        m_Texture: {fileID: 2800000, guid: 52f1f8864cedc914081ef1744347e4c8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -64,6 +88,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Reflection:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Refraction:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -81,6 +113,9 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
+    - _FPOW: 5
+    - _FoamFactor: 1.8
+    - _FoamSize: 2
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -88,17 +123,31 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _R0: 0.05
     - _ReceiveShadows: 1
+    - _ShoreDistance: 4
+    - _ShoreStrength: 1.5
+    - _Size: 0.015625
     - _SmoothnessTextureChannel: 0
+    - _SpecPower: 0.554
     - _SpecularHighlights: 1
+    - _Specularity: 2.27
     - _SrcBlend: 1
     - _Surface: 0
+    - _Translucency: 2.5
     - _UVSec: 0
+    - _WaterLod1Alpha: 0.95
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
     - Vector2_1EE5FB13: {r: 0.05, g: 0.05, b: 0, a: 0}
     - Vector2_3ED73180: {r: 1, g: 1, b: 0, a: 0}
-    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _Color: {r: 0, g: 0.27349424, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FakeUnderwaterColor: {r: 0.196, g: 0.262, b: 0.196, a: 1}
+    - _SSS: {r: 1, g: 0, b: 0.7823844, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _SunColor: {r: 1, g: 1, b: 0.901, a: 1}
+    - _SunDir: {r: 0.3, g: -0.6, b: -1, a: 0}
+    - _SurfaceColor: {r: 0.033018887, g: 0.076001704, b: 1, a: 1}
+    - _WaterColor: {r: 0, g: 0.95156765, b: 1, a: 1}
