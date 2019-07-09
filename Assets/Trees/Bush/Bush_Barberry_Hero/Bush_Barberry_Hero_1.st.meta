@@ -11,13 +11,13 @@ SpeedTreeImporter:
   lODSettings:
   - height: 0.22843295
     castShadows: 1
-    receiveShadows: 1
+    receiveShadows: 0
     useLightProbes: 1
     reflectionProbeUsage: 1
     enableBump: 1
     enableHue: 1
-    enableSubsurface: 1
-    windQuality: 4
+    enableSubsurface: 0
+    windQuality: 2
   - height: 0.12956987
     castShadows: 1
     receiveShadows: 1

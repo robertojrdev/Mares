@@ -34,3 +34,5 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+Assets/Scenes/SampleScene/OcclusionCullingData.asset
+Assets/Scenes/SampleScene/OcclusionCullingData.asset.meta
