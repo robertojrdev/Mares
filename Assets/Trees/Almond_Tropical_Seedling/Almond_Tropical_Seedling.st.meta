@@ -3,7 +3,7 @@ guid: 3ea1dc8d2795b764f84728f7874b0b5d
 SpeedTreeImporter:
   externalObjects: {}
   serializedVersion: 6
-  mainColor: {r: 0.41998932, g: 0.6226415, b: 0.51380974, a: 1}
+  mainColor: {r: 1, g: 1, b: 1, a: 1}
   hueVariation: {r: 0.5283019, g: 0.415361, b: 0.30153078, a: 0.1}
   alphaTestRef: 0.33
   bestWindQuality: 4

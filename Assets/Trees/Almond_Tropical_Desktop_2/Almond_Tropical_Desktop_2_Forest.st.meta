@@ -3,20 +3,20 @@ guid: 4b01fd3324f921c4ca1a01aaec209c77
 SpeedTreeImporter:
   externalObjects: {}
   serializedVersion: 6
-  mainColor: {r: 0.22352943, g: 0.30980393, b: 0.2627451, a: 1}
-  hueVariation: {r: 0.25587398, g: 0.4716981, b: 0.28803602, a: 0.1}
+  mainColor: {r: 1, g: 1, b: 1, a: 1}
+  hueVariation: {r: 0.25587398, g: 0.4716981, b: 0.28803602, a: 0}
   alphaTestRef: 0.33
   bestWindQuality: 4
   hasBillboard: 1
   lODSettings:
   - height: 0.5
     castShadows: 1
-    receiveShadows: 0
+    receiveShadows: 1
     useLightProbes: 1
     reflectionProbeUsage: 1
     enableBump: 1
     enableHue: 1
-    enableSubsurface: 0
+    enableSubsurface: 1
     windQuality: 2
   - height: 0.25
     castShadows: 1
