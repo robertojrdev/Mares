@@ -10,9 +10,11 @@ public class Manager : MonoBehaviour
     private float counter = 0;
     private float fadeTime = 2;
     private int index = 0;
-    private bool running = true;
+    public static bool running { get; private set; } = true;
 
-    private float[] timers = new float[] { 20, 10, 10};
+    private float[] timers = new float[] { 120, 15, 30};
+
+    public static Action onFinishSimulation;
 
     void Awake()
     {
@@ -34,10 +36,39 @@ public class Manager : MonoBehaviour
             return;
 
         counter += Time.deltaTime;
-        print(counter + " " + timers[index]);
         if(counter >= timers[index])
         {
             OnFinishCounter();
+        }
+    }
+
+    public static void SaveDataAndFinish(bool finalAnswer)
+    {
+        ExcelData table = new ExcelData();
+        table.AddCell("Nome do participante");
+        table.AddLine();
+        table.AddLine();
+        table.AddCell("Resposta final");
+        table.AddCell(finalAnswer ? "SIM" : "NAO");
+        table.AddLine();
+        table.AddLine();
+        table.AddCell("Cenario");
+        table.AddCell("Local");
+        table.AddCell("Tempo (segundos)");
+        table.AddLine();
+
+        var data = InterestRegister.GetExcelData();
+
+        table.Append(false, data);
+
+        string time = DateTime.Now.ToString("yyyy-MM-dd HH-mm-ss");
+
+        if (instance)
+            instance.StartCoroutine(ExcelFileCreator.Create(table, time, Application.dataPath));
+        else
+        {
+            var obj = new GameObject("Manager", typeof(Manager));
+            instance.StartCoroutine(ExcelFileCreator.Create(table, time, Application.dataPath));
         }
     }
 
@@ -87,5 +118,7 @@ public class Manager : MonoBehaviour
     {
         print("Finish all");
         running = false;
+        if(onFinishSimulation != null)
+            onFinishSimulation.Invoke();
     }
 }
