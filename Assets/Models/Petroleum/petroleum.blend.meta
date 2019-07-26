@@ -3,7 +3,17 @@ guid: 8547cab8523b65e44b4b29d7764aaaaa
 ModelImporter:
   serializedVersion: 26
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ocean
+    second: {fileID: 2100000, guid: fcc549bc89231ae41a3f647831af0987, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Petroleum
+    second: {fileID: 2100000, guid: c0d6fc014c5622846a4b04e15aa4de97, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

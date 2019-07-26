@@ -5,8 +5,12 @@ using UnityEngine;
 
 public class ExcelFileCreator
 {
+    public static bool IsSaving {get; private set;} = true;
+
     public static IEnumerator Create(ExcelData data, string name, string path)
     {
+        IsSaving = true;
+
         string directory = path + @"\QUESTIONARIO";
         path = directory + @"\" + name + ".csv";
 
@@ -35,6 +39,8 @@ public class ExcelFileCreator
 
         //Abrimos archivo recien creado
         Application.OpenURL(path);
+
+        IsSaving = false;
     }
 }
 

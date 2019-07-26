@@ -94,7 +94,7 @@ MonoBehaviour:
   usePositionTracking: 1
   useRotationTracking: 1
   useIPDInPositionTracking: 1
-  resetTrackerOnLoad: 0
+  resetTrackerOnLoad: 1
   AllowRecenter: 1
   _reorientHMDOnControllerRecenter: 1
 --- !u!1 &100006
@@ -206,7 +206,7 @@ MonoBehaviour:
   GravityModifier: 1
   useProfileData: 1
   EnableLinearMovement: 1
-  EnableRotation: 1
+  EnableRotation: 0
 --- !u!114 &11462408
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -6,13 +6,15 @@ using UnityEngine.SceneManagement;
 
 public class Manager : MonoBehaviour
 {
+    public bool closeWithoutFinalQuestion = true;
     private static Manager instance;
     private float counter = 0;
     private float fadeTime = 2;
     private int index = 0;
     public static bool running { get; private set; } = true;
+    private bool savingExcelFile = false;
 
-    private float[] timers = new float[] { 120, 15, 30};
+    private float[] timers = new float[] { 90, 20, 90};
 
     public static Action onFinishSimulation;
 
@@ -120,5 +122,17 @@ public class Manager : MonoBehaviour
         running = false;
         if(onFinishSimulation != null)
             onFinishSimulation.Invoke();
+
+        if(closeWithoutFinalQuestion)
+        {
+            SaveDataAndFinish(false);
+            StartCoroutine(WaitSaveToExit());
+        }
+    }
+
+    private IEnumerator WaitSaveToExit()
+    {
+        yield return new WaitWhile(() => ExcelFileCreator.IsSaving);
+        Application.Quit();
     }
 }

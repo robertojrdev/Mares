@@ -365,7 +365,7 @@ public class OVRPlayerController : MonoBehaviour
 			moveInfluence = Acceleration * 0.1f * MoveScale * MoveScaleMultiplier;
 
 #if !UNITY_ANDROID // LeftTrigger not avail on Android game pad
-			moveInfluence *= 1.0f + OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger);
+			moveInfluence *= 1.0f + OVRInput.Get(OVRInput.Axis1D.SecondaryIndexTrigger);
 #endif
 
 			Vector2 primaryAxis = OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick);
@@ -424,7 +424,7 @@ public class OVRPlayerController : MonoBehaviour
 			if (SnapRotation)
 			{
 
-				if (OVRInput.Get(OVRInput.Button.SecondaryThumbstickLeft))
+				if (OVRInput.Get(OVRInput.Button.PrimaryThumbstickLeft))
 				{
 					if (ReadyToSnapTurn)
 					{
@@ -432,7 +432,7 @@ public class OVRPlayerController : MonoBehaviour
 						ReadyToSnapTurn = false;
 					}
 				}
-				else if (OVRInput.Get(OVRInput.Button.SecondaryThumbstickRight))
+				else if (OVRInput.Get(OVRInput.Button.PrimaryThumbstickRight))
 				{
 					if (ReadyToSnapTurn)
 					{
@@ -447,7 +447,7 @@ public class OVRPlayerController : MonoBehaviour
 			}
 			else
 			{
-				Vector2 secondaryAxis = OVRInput.Get(OVRInput.Axis2D.SecondaryThumbstick);
+				Vector2 secondaryAxis = OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick);
 				euler.y += secondaryAxis.x * rotateInfluence;
 			}
 
