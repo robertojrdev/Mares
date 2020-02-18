@@ -21,12 +21,12 @@ public class FinalQuestion : MonoBehaviour
 
     void Awake()
     {
-        Manager.onFinishSimulation += Show;
+        //Manager.onFinishSimulation += Show;
     }
 
     void OnDestroy()
     {
-        Manager.onFinishSimulation -= Show;
+        //Manager.onFinishSimulation -= Show;
     }
 
     private void Update()

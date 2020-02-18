@@ -89,7 +89,6 @@ GameObject:
   - component: {fileID: 5890783861230914032}
   - component: {fileID: 5890783861230914045}
   - component: {fileID: 5890783861230914034}
-  - component: {fileID: 5890783861230914035}
   m_Layer: 0
   m_Name: Ocean (9)
   m_TagString: Untagged
@@ -157,20 +156,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5890783861230914035
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5890783861230914033}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &5890783861303324127
 GameObject:
   m_ObjectHideFlags: 0
@@ -182,7 +167,6 @@ GameObject:
   - component: {fileID: 5890783861303324126}
   - component: {fileID: 5890783861303324123}
   - component: {fileID: 5890783861303324120}
-  - component: {fileID: 5890783861303324121}
   m_Layer: 0
   m_Name: Ocean (3)
   m_TagString: Untagged
@@ -250,20 +234,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5890783861303324121
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5890783861303324127}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &5890783861330620383
 GameObject:
   m_ObjectHideFlags: 0
@@ -275,7 +245,6 @@ GameObject:
   - component: {fileID: 5890783861330620382}
   - component: {fileID: 5890783861330620379}
   - component: {fileID: 5890783861330620376}
-  - component: {fileID: 5890783861330620377}
   m_Layer: 0
   m_Name: Ocean (8)
   m_TagString: Untagged
@@ -343,20 +312,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5890783861330620377
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5890783861330620383}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &5890783861383725029
 GameObject:
   m_ObjectHideFlags: 0
@@ -368,7 +323,6 @@ GameObject:
   - component: {fileID: 5890783861383725028}
   - component: {fileID: 5890783861383725025}
   - component: {fileID: 5890783861383725030}
-  - component: {fileID: 5890783861383725031}
   m_Layer: 0
   m_Name: Ocean (13)
   m_TagString: Untagged
@@ -436,20 +390,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5890783861383725031
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5890783861383725029}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &5890783861405722678
 GameObject:
   m_ObjectHideFlags: 0
@@ -461,7 +401,6 @@ GameObject:
   - component: {fileID: 5890783861405722673}
   - component: {fileID: 5890783861405722674}
   - component: {fileID: 5890783861405722675}
-  - component: {fileID: 5890783861405722672}
   m_Layer: 0
   m_Name: Ocean (14)
   m_TagString: Untagged
@@ -529,20 +468,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5890783861405722672
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5890783861405722678}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &5890783861410634947
 GameObject:
   m_ObjectHideFlags: 0
@@ -554,7 +479,6 @@ GameObject:
   - component: {fileID: 5890783861410634946}
   - component: {fileID: 5890783861410634959}
   - component: {fileID: 5890783861410634956}
-  - component: {fileID: 5890783861410634957}
   m_Layer: 0
   m_Name: Ocean (20)
   m_TagString: Untagged
@@ -622,20 +546,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5890783861410634957
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5890783861410634947}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &5890783861554013147
 GameObject:
   m_ObjectHideFlags: 0
@@ -647,7 +557,6 @@ GameObject:
   - component: {fileID: 5890783861554013146}
   - component: {fileID: 5890783861554012711}
   - component: {fileID: 5890783861554012708}
-  - component: {fileID: 5890783861554012709}
   m_Layer: 0
   m_Name: Ocean (16)
   m_TagString: Untagged
@@ -715,20 +624,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5890783861554012709
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5890783861554013147}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &5890783861583081262
 GameObject:
   m_ObjectHideFlags: 0
@@ -740,7 +635,6 @@ GameObject:
   - component: {fileID: 5890783861583081257}
   - component: {fileID: 5890783861583081258}
   - component: {fileID: 5890783861583081259}
-  - component: {fileID: 5890783861583081256}
   m_Layer: 0
   m_Name: Ocean (12)
   m_TagString: Untagged
@@ -808,20 +702,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5890783861583081256
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5890783861583081262}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &5890783861823252663
 GameObject:
   m_ObjectHideFlags: 0
@@ -833,7 +713,6 @@ GameObject:
   - component: {fileID: 5890783861823252662}
   - component: {fileID: 5890783861823252659}
   - component: {fileID: 5890783861823252656}
-  - component: {fileID: 5890783861823252657}
   m_Layer: 0
   m_Name: Ocean (1)
   m_TagString: Untagged
@@ -901,20 +780,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5890783861823252657
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5890783861823252663}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &5890783861872158626
 GameObject:
   m_ObjectHideFlags: 0
@@ -926,7 +791,6 @@ GameObject:
   - component: {fileID: 5890783861872158637}
   - component: {fileID: 5890783861872158638}
   - component: {fileID: 5890783861872158639}
-  - component: {fileID: 5890783861872158636}
   m_Layer: 0
   m_Name: Ocean (26)
   m_TagString: Untagged
@@ -994,20 +858,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5890783861872158636
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5890783861872158626}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &5890783861994618997
 GameObject:
   m_ObjectHideFlags: 0
@@ -1019,7 +869,6 @@ GameObject:
   - component: {fileID: 5890783861994618996}
   - component: {fileID: 5890783861994618993}
   - component: {fileID: 5890783861994618998}
-  - component: {fileID: 5890783861994618999}
   m_Layer: 0
   m_Name: Ocean (22)
   m_TagString: Untagged
@@ -1087,20 +936,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5890783861994618999
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5890783861994618997}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &5890783862322481116
 GameObject:
   m_ObjectHideFlags: 0
@@ -1112,7 +947,6 @@ GameObject:
   - component: {fileID: 5890783862322481119}
   - component: {fileID: 5890783862322481112}
   - component: {fileID: 5890783862322481113}
-  - component: {fileID: 5890783862322481118}
   m_Layer: 0
   m_Name: Ocean (19)
   m_TagString: Untagged
@@ -1180,20 +1014,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5890783862322481118
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5890783862322481116}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &5890783862333770923
 GameObject:
   m_ObjectHideFlags: 0
@@ -1205,7 +1025,6 @@ GameObject:
   - component: {fileID: 5890783862333770922}
   - component: {fileID: 5890783862333770935}
   - component: {fileID: 5890783862333770932}
-  - component: {fileID: 5890783862333770933}
   m_Layer: 0
   m_Name: Ocean (7)
   m_TagString: Untagged
@@ -1273,20 +1092,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5890783862333770933
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5890783862333770923}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &5890783862366153837
 GameObject:
   m_ObjectHideFlags: 0
@@ -1298,7 +1103,6 @@ GameObject:
   - component: {fileID: 5890783862366153836}
   - component: {fileID: 5890783862366153833}
   - component: {fileID: 5890783862366153838}
-  - component: {fileID: 5890783862366153839}
   m_Layer: 0
   m_Name: Ocean (5)
   m_TagString: Untagged
@@ -1366,20 +1170,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5890783862366153839
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5890783862366153837}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &5890783862372547236
 GameObject:
   m_ObjectHideFlags: 0
@@ -1391,7 +1181,6 @@ GameObject:
   - component: {fileID: 5890783862372547239}
   - component: {fileID: 5890783862372547232}
   - component: {fileID: 5890783862372547233}
-  - component: {fileID: 5890783862372547238}
   m_Layer: 0
   m_Name: Ocean (2)
   m_TagString: Untagged
@@ -1459,20 +1248,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5890783862372547238
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5890783862372547236}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &5890783862419121103
 GameObject:
   m_ObjectHideFlags: 0
@@ -1484,7 +1259,6 @@ GameObject:
   - component: {fileID: 5890783862419121102}
   - component: {fileID: 5890783862419121099}
   - component: {fileID: 5890783862419121096}
-  - component: {fileID: 5890783862419121097}
   m_Layer: 0
   m_Name: Ocean (4)
   m_TagString: Untagged
@@ -1552,20 +1326,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5890783862419121097
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5890783862419121103}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &5890783862495062892
 GameObject:
   m_ObjectHideFlags: 0
@@ -1577,7 +1337,6 @@ GameObject:
   - component: {fileID: 5890783862495062895}
   - component: {fileID: 5890783862495062888}
   - component: {fileID: 5890783862495062889}
-  - component: {fileID: 5890783862495062894}
   m_Layer: 0
   m_Name: Ocean (10)
   m_TagString: Untagged
@@ -1645,20 +1404,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5890783862495062894
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5890783862495062892}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &5890783862643232056
 GameObject:
   m_ObjectHideFlags: 0
@@ -1670,7 +1415,6 @@ GameObject:
   - component: {fileID: 5890783862643232059}
   - component: {fileID: 5890783862643232004}
   - component: {fileID: 5890783862643232005}
-  - component: {fileID: 5890783862643232058}
   m_Layer: 0
   m_Name: Ocean (17)
   m_TagString: Untagged
@@ -1738,20 +1482,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5890783862643232058
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5890783862643232056}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &5890783862809566085
 GameObject:
   m_ObjectHideFlags: 0
@@ -1763,7 +1493,6 @@ GameObject:
   - component: {fileID: 5890783862809566084}
   - component: {fileID: 5890783862809566081}
   - component: {fileID: 5890783862809566086}
-  - component: {fileID: 5890783862809566087}
   m_Layer: 0
   m_Name: Ocean (27)
   m_TagString: Untagged
@@ -1831,20 +1560,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5890783862809566087
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5890783862809566085}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &5890783862815233386
 GameObject:
   m_ObjectHideFlags: 0
@@ -1856,7 +1571,6 @@ GameObject:
   - component: {fileID: 5890783862815233397}
   - component: {fileID: 5890783862815233398}
   - component: {fileID: 5890783862815233399}
-  - component: {fileID: 5890783862815233396}
   m_Layer: 0
   m_Name: Ocean (11)
   m_TagString: Untagged
@@ -1924,20 +1638,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5890783862815233396
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5890783862815233386}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &5890783862848774619
 GameObject:
   m_ObjectHideFlags: 0
@@ -1949,7 +1649,6 @@ GameObject:
   - component: {fileID: 5890783862848774618}
   - component: {fileID: 5890783862848774183}
   - component: {fileID: 5890783862848774180}
-  - component: {fileID: 5890783862848774181}
   m_Layer: 0
   m_Name: Ocean (21)
   m_TagString: Untagged
@@ -2017,20 +1716,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5890783862848774181
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5890783862848774619}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &5890783862905928750
 GameObject:
   m_ObjectHideFlags: 0
@@ -2042,7 +1727,6 @@ GameObject:
   - component: {fileID: 5890783862905928745}
   - component: {fileID: 5890783862905928746}
   - component: {fileID: 5890783862905928747}
-  - component: {fileID: 5890783862905928744}
   m_Layer: 0
   m_Name: Ocean (18)
   m_TagString: Untagged
@@ -2110,20 +1794,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5890783862905928744
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5890783862905928750}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &5890783862912580605
 GameObject:
   m_ObjectHideFlags: 0
@@ -2135,7 +1805,6 @@ GameObject:
   - component: {fileID: 5890783862912580604}
   - component: {fileID: 5890783862912580601}
   - component: {fileID: 5890783862912580606}
-  - component: {fileID: 5890783862912580607}
   m_Layer: 0
   m_Name: Ocean
   m_TagString: Untagged
@@ -2203,20 +1872,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5890783862912580607
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5890783862912580605}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &5890783862992647223
 GameObject:
   m_ObjectHideFlags: 0
@@ -2228,7 +1883,6 @@ GameObject:
   - component: {fileID: 5890783862992647222}
   - component: {fileID: 5890783862992647219}
   - component: {fileID: 5890783862992647216}
-  - component: {fileID: 5890783862992647217}
   m_Layer: 0
   m_Name: Ocean (24)
   m_TagString: Untagged
@@ -2296,20 +1950,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5890783862992647217
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5890783862992647223}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &5890783863059616271
 GameObject:
   m_ObjectHideFlags: 0
@@ -2321,7 +1961,6 @@ GameObject:
   - component: {fileID: 5890783863059616270}
   - component: {fileID: 5890783863059616267}
   - component: {fileID: 5890783863059616264}
-  - component: {fileID: 5890783863059616265}
   m_Layer: 0
   m_Name: Ocean (23)
   m_TagString: Untagged
@@ -2389,20 +2028,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5890783863059616265
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5890783863059616271}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &5890783863097092503
 GameObject:
   m_ObjectHideFlags: 0
@@ -2414,7 +2039,6 @@ GameObject:
   - component: {fileID: 5890783863097092502}
   - component: {fileID: 5890783863097092499}
   - component: {fileID: 5890783863097092496}
-  - component: {fileID: 5890783863097092497}
   m_Layer: 0
   m_Name: Ocean (15)
   m_TagString: Untagged
@@ -2482,20 +2106,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5890783863097092497
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5890783863097092503}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &5890783863164193093
 GameObject:
   m_ObjectHideFlags: 0
@@ -2507,7 +2117,6 @@ GameObject:
   - component: {fileID: 5890783863164193092}
   - component: {fileID: 5890783863164193089}
   - component: {fileID: 5890783863164193094}
-  - component: {fileID: 5890783863164193095}
   m_Layer: 0
   m_Name: Ocean (6)
   m_TagString: Untagged
@@ -2575,20 +2184,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5890783863164193095
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5890783863164193093}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &8936094728324917255
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2596,16 +2191,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 981783213581947549}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 8547cab8523b65e44b4b29d7764aaaaa,
-        type: 3}
-      propertyPath: m_Name
-      value: petroleum
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 8547cab8523b65e44b4b29d7764aaaaa,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 8547cab8523b65e44b4b29d7764aaaaa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2675,6 +2260,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 8.053498
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 8547cab8523b65e44b4b29d7764aaaaa,
+        type: 3}
+      propertyPath: m_Name
+      value: petroleum
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 8547cab8523b65e44b4b29d7764aaaaa,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 8547cab8523b65e44b4b29d7764aaaaa,
         type: 3}

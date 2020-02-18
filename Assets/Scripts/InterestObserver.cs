@@ -55,8 +55,6 @@ public class InterestObserver : MonoBehaviour
 
         currentPoint = point;
         pointStartTime = Time.unscaledTime;
-
-        print("Start look at " + point.pointName);
     }
 
     private void StopLook()

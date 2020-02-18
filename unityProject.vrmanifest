@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.mares2019.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Users\\pedro\\Documents\\GitHub\\MARES 2019\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "MARES 2019 [Testing]"
+        }
+      }
+    }
+  ]
+}

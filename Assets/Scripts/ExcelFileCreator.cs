@@ -5,9 +5,9 @@ using UnityEngine;
 
 public class ExcelFileCreator
 {
-    public static bool IsSaving {get; private set;} = true;
+    public static bool IsSaving { get; private set; } = true;
 
-    public static IEnumerator Create(ExcelData data, string name, string path)
+    public static IEnumerator Create(ExcelData data, string name, string path, bool openOnSave = false)
     {
         IsSaving = true;
 
@@ -38,7 +38,8 @@ public class ExcelFileCreator
         yield return new WaitForSeconds(0.5f);//Esperamos para estar seguros que escriba el archivo
 
         //Abrimos archivo recien creado
-        Application.OpenURL(path);
+        if(openOnSave)
+            Application.OpenURL(path);
 
         IsSaving = false;
     }
@@ -47,7 +48,7 @@ public class ExcelFileCreator
 public class ExcelData
 {
     public string data { get; private set; }
-    
+
     public void AddCell(string value)
     {
         data += value + ";";
@@ -62,7 +63,7 @@ public class ExcelData
     {
         foreach (var item in data)
         {
-            if(addLine)
+            if (addLine)
                 AddLine();
 
             this.data += item.data;
